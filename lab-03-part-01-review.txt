@@ -15,7 +15,7 @@ This lab will review downloading and uncompressing files, and it will get us set
 
 Write the command that you used to do this below:
 ----------
-
+cd ~
 
 
 ==========
@@ -23,6 +23,8 @@ Write the command that you used to do this below:
 
 Write the command that you used to do this - as well as its output - below :
 ----------
+pwd 
+result: /Users/student
 
 
 
@@ -31,6 +33,14 @@ Write the command that you used to do this - as well as its output - below :
 
 Write the command(s) that you used to determine this - as well as its output - below:
 ----------
+ls 
+result: Adlm			Library			QLData
+Adobe			MPLABXProjects		Things
+Applications		Movies			ipe.properties
+Class 2			Music			isus
+Desktop			New Unity Project	pymel.log
+Documents		Pictures		xgen
+Downloads		Public
 
 
 
