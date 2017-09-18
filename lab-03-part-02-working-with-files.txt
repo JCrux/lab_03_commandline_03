@@ -97,6 +97,9 @@ command:mv foo.txt qux.txt output: baz.txt	qux.txt
 
 Write out the command that you used and what happened.
 ----------
+command:rmdir my_files/
+
+output:rmdir: my_files/: Directory not empty
 
 
 
@@ -105,6 +108,9 @@ Write out the command that you used and what happened.
 
 Write out the command that you used and what happened.
 ----------
+command:rm my_files/
+
+output:rm: my_files/: is a directory
 
 
 
