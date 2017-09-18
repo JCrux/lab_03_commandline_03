@@ -36,6 +36,7 @@ $ touch foo.txt
 $ ls
 Copy and paste the output below.
 ----------
+foo.txt
 
 
 
@@ -44,7 +45,7 @@ Copy and paste the output below.
 
 $ touch bar.txt
 ----------
-
+bar.txt	foo.txt
 
 
 ==========
@@ -52,6 +53,7 @@ $ touch bar.txt
 
 Copy and paste the output below.
 ----------
+.	..	bar.txt	foo.txt
 
 
 
@@ -59,23 +61,28 @@ Copy and paste the output below.
 9. Create a copy of bar.txt called baz.txt and then list the files again.
 
 
+
 Write the command that you used to copy the file.  Additionally, copy and paste the output of your file listing below.
 ----------
+cp bar.txt baz.txt
 
+bar.txt	baz.txt	foo.txt
 
 
 ==========
 10. Delete the file called bar.txt and then list the files again.
 
 Write the command that you used to remove the file.  Copy and paste the output of your file listing below.
-----------
+---------- command: rm bar.txt           output:baz.txt	foo.txt
+
 ==========
 11. Move the file called foo.txt to qux.txt and then list the files again.
 
 
+
 Write the command that you used to move the file.  Copy and paste the output of your file listing below.
 ----------
-
+command:mv foo.txt qux.txt output: baz.txt	qux.txt
 
 
 ==========
