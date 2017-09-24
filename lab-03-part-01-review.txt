@@ -331,24 +331,26 @@ Library			Things
 
 Write the command(s) that you used to determine this - as well as its output - below:
 ----------
-
-
-
+cd mtec1002-lab-03
+ls
+books logs web
 ==========
 10.  Now... go back home.  Then change to the science-fiction directory using a relative path.  The directory is located in books... which is located in the mtec1002-lab-03 directory.  Verify you're in the right directory using pwd.
 
 Write the command(s) (including going home) that you used to do this below:
 ----------
-
-
-
+cd ~
+cd mtec1002-lab-03
+cd books
+cd science-fiction
+pwd
 ==========
 11.  Write the files that are in the science fiction directory below.
 
 Write the command(s) that you used to do this - as well as its output - below:
 ----------
-
-
+ls
+pg84.txt        pg86.txt
 
 ==========
 12.  Again, go back to your home directory.  Now... go to the science-fiction directory using an absolute path!  Verify that you're in the right directory using pwd.
@@ -362,7 +364,7 @@ OPTIONAL
 
 Write the command(s) that you used to do this below:
 ----------
-
+/User/student/mtec1002-lab-03/books/science-fiction
 ==========
 OPTIONAL
 14. Find out what the most recently modified directory is in mtec1002 (there are only 3 to choose from)?  How would you find this out?  Hint: perhaps using something to show the modified date... and sort it by time.
